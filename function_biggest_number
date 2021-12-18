@@ -1,0 +1,50 @@
+use std::io;
+fn main()
+{
+println!("Enter First Number");
+let mut input1=String::new();
+io::stdin().read_line(&mut input1).expect("error");
+
+let input1:i32=input1.trim().parse().expect("error");
+
+
+println!("Enter Second Number");
+let mut input2=String::new();
+io::stdin().read_line(&mut input2).expect("error");
+
+let input2:i32=input2.trim().parse().expect("error");
+
+
+println!("Enter Third Number");
+
+let mut input3=String::new();
+io::stdin().read_line(&mut input3).expect("error");
+
+let input3:i32=input3.trim().parse().expect("error");
+
+let biggest=biggest_number(input1,input2,input3);
+
+println!("Biggest number is: {}",biggest);
+
+}
+
+fn biggest_number(input1:i32,input2:i32,input3:i32)->i32
+{
+
+if input1>input2 && input1>input3
+{
+
+  return input1;
+}
+else if input2>input1 && input2>input3
+{
+
+return input2;
+
+}
+else{ return input3;
+}
+
+}
+
+
