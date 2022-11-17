@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @SHozab29
-- 👀 I’m interested in C# and .NET
+- 👀 I’m interested in C#.NET and Python
 - 🌱 I’m currently learning BE CSE
 - 💞️ I’m looking to collaborate on anything
 - 📫 How to reach me : dm
