@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SHozab29
 - 👀 I’m interested in C#.NET and Python
-- 🌱 I’m currently learning BE CSE
+- 🌱 I’m a .Net developer in MNC
 - 💞️ I’m looking to collaborate on anything
 - 📫 How to reach me : dm
 
